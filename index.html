@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="JavaScript word counter.">
+  <meta name="keywords" content="HTML, CSS, JS, JavaScript, word count, web development">
+  <meta name="author" content="Fengyuan Chen">
+  <title>Word Counter</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="brand">Word Counter<small>JavaScript word counter.</small></h1>
+      <div class="credits">
+        <span>Code from: <a href="https://github.com/fengyuanchen/wordcounter" target="_blank">@fengyuanchen</a></span>
+        <span>Adapted by: <a href="https://github.com/BackrndSource/wordcounter" target="_blank">@BackrndSource</a></span>
+      </div>
+    </div>
+    <div class="main">
+      <div class="mainbody">
+        <!-- Counter Options -->
+        <div class="options">
+          <ul class="nav">
+            <li>
+              <label for="mincount">Compte minimale:</label>
+              <input type="number" id="mincount" size="3"/></li>
+            <li>
+              <label for="minlength">Longueur minimale:</label>
+              <input type="number" id="minlength" size="3"/></li>
+            <li>
+              <label for="ignore">Ignorer mots:</label>
+              <input type="text" id="ignore"/></li>
+            <li>
+              <label for="ignorecase">Ignorer majuscules / minuscules:</label>
+              <select id="ignorecase">
+                <option value="true">Oui</option>
+                <option value="false">Non</option>
+              </select> 
+            </li>
+            <li><button data-action="reset-options" href="javascript:void(0);">Réinitialiser options</button></li>
+          </ul>
+        </div>
+        <!-- Source Options -->
+        <div class="options">
+          <ul class="nav">
+            <li>
+              <label for="fileinput">Source à partir d'un fichier texte brut:</label>
+              <input type="file" id="fileinput"/>
+            </li>
+            <li><button data-action="reset-source" href="javascript:void(0);">Réinitialiser source</button></li>
+          </ul>
+        </div>
+        <textarea class="input" id="source" placeholder="Source..."></textarea>
+      </div>
+      <div class="sidebar">
+        <textarea class="output" id="result" placeholder="Résultat..." readonly></textarea>
+      </div>
+    </div>
+    <div class="footer">
+      <span class="blocks"></span>
+    </div>
+  </div>
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/wordcounter.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
