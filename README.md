@@ -21,3 +21,4 @@ Thanks to: @fengyuanchen
 
 ## Removed
 - Options that are not useful for its use
+- Image used to decorate
