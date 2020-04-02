@@ -1,9 +1,11 @@
 # wordcounter
 
 Adaptation of the original JavaScript wordcounter demo ready for use locally without internet connection.
+
 Translated into french language.
 
 Code from: https://github.com/fengyuanchen/wordcounter
+
 Thanks to: @fengyuanchen
 
 ## Added
