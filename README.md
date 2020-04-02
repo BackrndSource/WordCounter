@@ -14,7 +14,7 @@ Thanks to: @fengyuanchen
 
   - Minimal count
   - Minimal length
-  - Ignore words
+  - Ignore words (input split by whitespace)
   - Ignore case
   
 - Form that allows the loading of a local plain text file 
