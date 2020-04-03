@@ -4,6 +4,7 @@ Adaptation of the original JavaScript wordcounter demo ready for use locally wit
 
 Translated into french language.
 
+Try it: https://backrndsource.github.io/wordcounter/
 
 Code from: https://github.com/fengyuanchen/wordcounter
 
