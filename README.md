@@ -1,4 +1,4 @@
-# wordcounter
+# WordCounter
 
 Adaptation of the original JavaScript wordcounter demo ready for use locally without internet connection.
 
